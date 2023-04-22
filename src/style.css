@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap');
+
+
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0; 
+
+}
+
+.container{
+    display: grid;
+    margin: 0.5rem;
+    justify-items: center;
+}
+
+.journal-container{
+    display: grid;
+    width: 50rem;
+    box-shadow: 0 10px 24px rgba(0,0,0,0.2);
+    border-bottom-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+
+.header{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    gap: 0.7rem;
+    height: 4rem;
+    border-top-right-radius:1rem ;
+    border-top-left-radius:1rem ;
+}
+
+.header h3{
+    font-size: 1.5rem;
+    color: antiquewhite;
+}
+
+.header p{
+    color: antiquewhite;
+}
+
+section.travel-post{
+    display: flex;
+    margin: 4rem;
+    margin-right: 0.5rem;
+}
+
+section.travel-post .post-container{
+    display: grid;
+    margin: 2rem;
+    align-items: center;
+}
+
+section.travel-post img{
+    height: 100%;
+    width: 15rem;
+    border-radius: 5%;
+}
+
+section.travel-post .post-container .marker{
+    color: red;
+    
+}
+
+section.travel-post .post-container .marker .country{
+    text-transform: uppercase;
+    color: black;
+    letter-spacing: 0.2rem;
+}
+
+section.travel-post .post-container .location{
+    margin-left:0.8rem ;
+    color: #887b7b85;
+
+}
+
+section.travel-post .post-container .title{
+    font-size: 2rem;
+    margin-bottom: .8rem ;
+}
+
+
+section.travel-post .post-container .date{
+    font-weight: bold;
+
+    margin-bottom: -0.3rem ;
+}
+
+section.travel-post .post-container .description{
+    grid-area: "body";
+}   
